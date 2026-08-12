@@ -1,0 +1,14 @@
+{
+  "name": "islamic-qa-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that answers Islamic knowledge questions (Qur'an/Hadith based) using the Claude API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
